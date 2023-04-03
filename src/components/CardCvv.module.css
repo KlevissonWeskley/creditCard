@@ -1,0 +1,43 @@
+.creditCardCvv{
+    width: 17.5rem;
+    height: 10rem;
+    padding: 1rem 1.5rem;
+    background-image: linear-gradient(to bottom right, #9333EA, #111827, #2DD4BF);
+    border-radius: 16px;
+    box-shadow: 0 0 .5rem var(--gray-100);
+    cursor: pointer;
+}
+
+.lineBlack{
+    width: 20.5rem;
+    height: 2rem;
+    background: var(--background);
+    margin-left: -1.5rem;
+}
+
+.lineWhite{
+    width: 12.5rem;
+    height: 1.5rem;
+    padding: 0.4rem;
+    background: var(--gray-300);
+    color: var(--gray-600);
+    font-size: 1rem;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    margin-top: 3rem;
+}
+
+.cvv{
+    margin-top: 3rem;
+}
+
+.cvvLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}

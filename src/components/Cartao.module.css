@@ -1,0 +1,162 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.personalInformation label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.personalInformation input{
+    width: 20.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+label{
+    font-size: .875rem;
+}
+
+input{
+    background: transparent;
+    color: var(--gray-100);
+    border: 0;
+    border: 2px solid var(--gray-600);
+}
+
+input:focus{
+    outline: none;
+    color: var(--gray-100);
+    border: 2px solid var(--purple-dark);
+}
+
+.informationCard{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.informationCard label{
+    margin-bottom: 0.25rem;
+}
+
+.validity, .cvv{
+    display: flex;
+    flex-direction: column;
+}
+
+.validity input{
+    display: flex;
+    align-items: center;
+    width: 11rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.cvv input{
+    display: flex;
+    align-items: center;
+    width: 7.4rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.cvv label{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.question{
+    background-color: var(--gray-100);
+    color: black;
+    border-radius: 50%;
+}
+
+.card{
+    margin-top: 2rem;
+}
+
+.creditCard{
+    width: 17.5rem;
+    height: 10rem;
+    padding: 1rem 1.5rem ;
+    background-image: linear-gradient(to bottom right, #9333EA, #111827, #2DD4BF);
+    border-radius: 16px;
+    box-shadow: 0 0 .5rem var(--gray-100);
+    cursor: pointer;
+}
+
+.topInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+
+.numberCard{
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.numberCard h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+.bottomInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 6.5rem;
+    color: var(--gray-400);
+}
+
+.secureData{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.warning {
+    color: var(--erro-red);
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+@media screen and (max-width: 760px) {
+    .cardContent{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input{
+        background: var(--background);
+    }
+
+}
